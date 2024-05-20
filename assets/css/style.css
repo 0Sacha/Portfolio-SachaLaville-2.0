@@ -15,9 +15,7 @@ html {
 
 body
 {
-    min-height: 100vh;
-    overflow-x: hidden;
-    background-color: #070707;
+    background-color: #0a0a0a;
 }
 
 header {
@@ -129,6 +127,7 @@ img {
     display: block;
     font-size:var(--small-font-size);
     margin-bottom: .25rem;
+    color: white;
 }
 
 .card__title {
@@ -206,9 +205,39 @@ img {
 }
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+@media screen and (min-width: 340px) {
+    .container {
+        margin-inline: 1rem;
+    }
 
+    .card__data {
+        width:  250px;
+        padding: 1rem;
+    }
+}
 
 /* For medium devices */
-
+@media screen and (min-width: 768px) {
+    .card__container {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1.5rem;
+    }
+}
 
 /* For large devices */
+@media screen and (min-width: 1120px) {
+    .container {
+        height: 100vh;
+    }
+
+    .card__container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .card__img{
+        width: 348px;
+    }
+    .card__data{
+        width:  316px;
+        padding: 2.5rem;
+    }
+}
