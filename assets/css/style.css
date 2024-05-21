@@ -47,10 +47,32 @@ header ul li a {
     color: white;
     border-radius: 20px;
 }
-header ul li a:hover,
-header ul li a.active{
+header ul li a:hover{
     background: #fff;
     color: #2b1055;
+    font-weight: bold;
+}
+
+header ul li a.active:hover~.header ul li a{
+}
+
+section h1,p{
+    position: relative;
+    margin-right: 350px;
+    text-align: right;
+    color: white;
+}
+
+section h1 {
+    margin-top: 250px;
+}
+
+.pp-home{
+    position: absolute;
+    /*margin-top: 150px;*/
+    margin-left: 150px;
+    height: 768px;
+    width: 576px;
 }
 
 /*=============== VARIABLES CSS ===============*/
@@ -79,6 +101,10 @@ header ul li a.active{
 }
 
 /*=============== BASE ===============*/
+section {
+    margin-top: 100px;
+}
+
 img {
     display: block;
     max-width: 100%;
@@ -234,7 +260,7 @@ img {
         grid-template-columns: repeat(3, 1fr);
     }
     .card__img{
-        width: 348px;
+        width: 424px;
     }
     .card__data{
         width:  316px;
