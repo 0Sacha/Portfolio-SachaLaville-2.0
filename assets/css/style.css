@@ -13,10 +13,6 @@ html {
     overflow-x: hidden;
 }
 
-body
-{
-    background-color: #0a0a0a;
-}
 
 header {
     position: absolute;
@@ -50,28 +46,36 @@ header ul li a {
 header ul li a:hover,
 header ul li a.active{
     background: #fff;
-    color: #2b1055;
+    color: #131313;
     font-weight: bold;
 }
 
 
-section h1,p{
+.title,.subtitle{
     position: relative;
-    margin-right: 350px;
-    text-align: right;
+    text-align: left;
     color: white;
 }
 
-section h1 {
-    margin-top: 250px;
+.title{
+    font-size: 100px;
+}
+
+.subtitle{
+    font-size: 50px;
+}
+
+.titre {
+    margin: -750px 750px -750px 775px;
 }
 
 .pp-home{
-    position: absolute;
-    /*margin-top: 150px;*/
+    position: relative;
+    margin-top: 210px;
     margin-left: 150px;
     height: 768px;
     width: 576px;
+    border-radius: 25px;
 }
 
 /*=============== VARIABLES CSS ===============*/
@@ -239,6 +243,32 @@ img {
         width:  250px;
         padding: 1rem;
     }
+
+    .title,.subtitle{
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+
+    .title{
+        font-size: 50px;
+    }
+
+    .subtitle{
+        font-size: 25px;
+    }
+
+    .titre {
+        margin:  auto auto 775px;
+    }
+
+    .pp-home{
+        position: relative;
+        height: 768px;
+        width: 576px;
+        border-radius: 25px;
+
+    }
 }
 
 /* For medium devices */
@@ -246,6 +276,32 @@ img {
     .card__container {
         grid-template-columns: repeat(2, 1fr);
         column-gap: 1.5rem;
+    }
+
+    .title,.subtitle{
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+
+    .title{
+        font-size: 50px;
+    }
+
+    .subtitle{
+        font-size: 25px;
+    }
+
+    .titre {
+        align-items: center;
+    }
+
+    .pp-home{
+        position: relative;
+        align-items: center;
+        height: 768px;
+        width: 576px;
+        border-radius: 25px;
     }
 }
 
@@ -264,5 +320,32 @@ img {
     .card__data{
         width:  316px;
         padding: 2.5rem;
+    }
+
+    .title,.subtitle{
+        position: relative;
+        text-align: left;
+        color: white;
+    }
+
+    .title{
+        font-size: 100px;
+    }
+
+    .subtitle{
+        font-size: 50px;
+    }
+
+    .titre {
+        margin: -750px 195px auto 850px;
+    }
+
+    .pp-home{
+        position: relative;
+        margin-top: 210px;
+        margin-left: 195px;
+        height: 768px;
+        width: 576px;
+        border-radius: 25px;
     }
 }
