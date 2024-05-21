@@ -259,6 +259,7 @@ img {
     }
 
     .titre {
+        text-align: center;
         margin:  auto auto 775px;
     }
 
