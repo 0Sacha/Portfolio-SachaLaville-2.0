@@ -47,14 +47,13 @@ header ul li a {
     color: white;
     border-radius: 20px;
 }
-header ul li a:hover{
+header ul li a:hover,
+header ul li a.active{
     background: #fff;
     color: #2b1055;
     font-weight: bold;
 }
 
-header ul li a.active:hover~.header ul li a{
-}
 
 section h1,p{
     position: relative;
