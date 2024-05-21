@@ -305,6 +305,20 @@ img {
     }
 }
 
+
+.credit p{
+    color: white;
+    text-align: center;
+    margin: 100px auto 25px auto;
+}
+
+.title__blender{
+    margin: 100px 0 100px 0;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
 /* For large devices */
 @media screen and (min-width: 1120px) {
     .container {

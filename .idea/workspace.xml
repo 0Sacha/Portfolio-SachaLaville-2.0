@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="272fae7d-6a04-4280-8944-cc15c7268be2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/presta_dominus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/presta_fennec.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/presta_octane.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/works.html" beforeDir="false" afterPath="$PROJECT_DIR$/works.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +54,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sacha\WebstormProjects\Portfolio-SachaLaville-2.0\assets\img" />
       <recent name="C:\Users\sacha\WebstormProjects\Projet1\assets\img" />
       <recent name="C:\Users\sacha\WebstormProjects\Projet1\assets" />
       <recent name="C:\Users\sacha\WebstormProjects\Projet1" />
@@ -67,7 +73,8 @@
       <workItem from="1716244318747" duration="121000" />
       <workItem from="1716244557287" duration="1469000" />
       <workItem from="1716246114447" duration="587000" />
-      <workItem from="1716270416352" duration="15503000" />
+      <workItem from="1716270416352" duration="15780000" />
+      <workItem from="1716303529328" duration="1986000" />
     </task>
     <servers />
   </component>
