@@ -19,7 +19,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 30px 100px;
+    padding: 1.8rem 6.25rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -34,12 +34,12 @@ header ul
 }
 header ul li {
     list-style: none;
-    margin-left: 5%;
+    margin-left: 1rem;
 }
 header ul li a {
     transition: all .35s ease-in-out;
     text-decoration: none;
-    padding: 6px 15px;
+    padding: 6px 1rem;
     color: white;
     border-radius: 20px;
 }
@@ -58,12 +58,10 @@ header ul li a.active{
 }
 
 .title{
-    font-size: 100px;
-}
+    font-size: clamp(1rem, 5vw, 1.5rem);}
 
 .subtitle{
-    font-size: 50px;
-}
+    font-size: clamp(1rem, 5vw, 1.5rem);}
 
 .titre {
     margin: -750px 750px -750px 775px;
@@ -71,11 +69,11 @@ header ul li a.active{
 
 .pp-home{
     position: relative;
-    margin-top: 210px;
-    margin-left: 150px;
-    height: 768px;
-    width: 576px;
-    border-radius: 25px;
+    margin-top: 13rem;
+    margin-left: 9rem;
+    height: 48rem;
+    width: 36rem;
+    border-radius: 1.5rem;
 }
 
 /*=============== VARIABLES CSS ===============*/
@@ -105,7 +103,7 @@ header ul li a.active{
 
 /*=============== BASE ===============*/
 section {
-    margin-top: 100px;
+    margin-top: 6.25rem;
 }
 
 img {
@@ -133,7 +131,7 @@ img {
 }
 
 .card__img {
-    width: 358px;
+    width: 22rem;
     border-radius: 1.5rem;
 }
 
@@ -240,7 +238,7 @@ img {
     }
 
     .card__data {
-        width:  250px;
+        width:  15.6rem;
         padding: 1rem;
     }
 
@@ -251,24 +249,23 @@ img {
     }
 
     .title{
-        font-size: 50px;
+        font-size: clamp(1rem, 5vw, 1.5rem);
     }
 
     .subtitle{
-        font-size: 25px;
+        font-size: clamp(1rem, 5vw, 1.5rem);
     }
 
     .titre {
         text-align: center;
-        margin:  auto auto 775px;
+        margin:  auto auto 48.4rem;
     }
 
     .pp-home{
         position: relative;
-        height: 768px;
-        width: 576px;
-        border-radius: 25px;
-
+        height: 48rem;
+        width: 36rem;
+        border-radius: 1.5rem;
     }
 }
 
@@ -286,11 +283,11 @@ img {
     }
 
     .title{
-        font-size: 50px;
+        font-size: clamp(2rem, 5vw, 1.5rem);
     }
 
     .subtitle{
-        font-size: 25px;
+        font-size: clamp(1.5rem, 5vw, 1rem);
     }
 
     .titre {
@@ -299,10 +296,9 @@ img {
 
     .pp-home{
         position: relative;
-        align-items: center;
-        height: 768px;
-        width: 576px;
-        border-radius: 25px;
+        height: 48rem;
+        width: 36rem;
+        border-radius: 1.5rem;
     }
 }
 
@@ -344,23 +340,21 @@ img {
     }
 
     .title{
-        font-size: 100px;
+        font-size: clamp(7rem, 5vw, 1.5rem);
     }
 
     .subtitle{
-        font-size: 50px;
+        font-size: clamp(1rem, 5vw, 1.5rem);
     }
 
     .titre {
-        margin: -750px 195px auto 850px;
+        margin: -47rem 12rem auto 53rem;
     }
 
     .pp-home{
         position: relative;
-        margin-top: 210px;
-        margin-left: 195px;
-        height: 768px;
-        width: 576px;
-        border-radius: 25px;
+        height: 48rem;
+        width: 36rem;
+        border-radius: 1.5rem;
     }
 }
