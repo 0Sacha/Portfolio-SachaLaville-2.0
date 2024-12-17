@@ -13,7 +13,6 @@ html {
     overflow-x: hidden;
 }
 
-
 header {
     position: absolute;
     top: 0;
@@ -192,6 +191,15 @@ img {
 .card__article:not(:hover) .card__data {
     animation:remove-data 1s forwards ;
 }
+
+.erreur404 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
 /* Card animation */
 @keyframes show-data {
     50% {
